@@ -116,6 +116,7 @@ main img{
     font-size: 2em;
 }
 #biography img{
+    width: 300px;
     max-width: 400px;
     margin: 50px;
 }
