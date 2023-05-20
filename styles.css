@@ -198,7 +198,8 @@ main img{
 }
 .social-platform{
     background-color: azure;
-    width: 300px;
+    max-width: 300px;
+    min-width: 300px;
     padding: 15px;
     border-radius: 2px;
     
@@ -227,16 +228,16 @@ main img{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-    padding-top: 100px;
+    height: 80vh;
+    padding: 100px 0;
 }
 #donation div{
+    text-align: center;
     width: 300px;
     padding: 20px;
-    color: #797979;
-    margin-left: 100px;
-background-color: grey;
-background-color: rgba(128, 128, 128, 0.1)
+    color: #151414;
+        margin: auto;
+background-color: rgba(128, 128, 128, 0.9)
 }
 #donation h1{
     color: white;
@@ -245,7 +246,7 @@ background-color: rgba(128, 128, 128, 0.1)
     margin-top: 20px;
 }
 #about-us{
-    width: 400px;
+    width:80vw;
     margin: 100px auto;
     text-align: center;
 }
