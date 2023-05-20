@@ -181,7 +181,8 @@ main img{
     align-items: center;
 }
 .family-member .text{
-    width: 350px;
+    width: 400px;
+    display: inline;
 }
 .family-member p{
     font-size: 1.4rem;
