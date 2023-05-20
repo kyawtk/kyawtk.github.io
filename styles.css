@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    word-spacing: 6px;
+    
+}
+.divider{
+    height: 20px;
+}
+a{
+    color: #797979;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+span a{
+    color: blue;
+    text-decoration: underline;
+    transition: all 0.5s ease-in-out;
+}
+span a:hover{
+    color:white;
+    background-color: blue;
+}
+nav{
+    width: 100%;
+    background-color: #151414;
+    text-align: center;
+    
+    padding: 15px 0;
+}
+
+nav ul{
+    margin: 0 auto;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    margin: 0 10px;
+    
+    font-size: larger;
+}
+
+main{
+    background-color: #151414;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.main-image
+{
+    width: 600px;
+    margin:0;
+    padding: 0;
+}
+main img{
+    max-width: 100%;
+  
+}
+
+#main-info{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+@media(max-width :1080px ){
+    #main-info{
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    main img{
+        text-align: center;
+    }
+}
+#main-info h3{
+    font-weight: normal;
+    font-size: 1.5em;
+    text-indent: 5px;
+    color: #797979;
+}
+#main-info h1{
+    font-size: 4rem;
+    
+}
+#main-info p{
+    margin-top: 40px;
+    margin-left: 5px;
+    color: #797979;
+}
+
+#biography{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 0;
+    color: #797979;
+    padding: 100px;
+}
+
+#biography .text{
+    width: 500px;
+
+}
+.text strong{
+    font-size: 2em;
+}
+#biography img{
+    max-width: 400px;
+    margin: 50px;
+}
+
+#works{
+    color: #797979;
+    background-color: #151414;
+    text-align: center;
+    padding-bottom: 50px;
+}
+#works img{
+    width: 100%;
+    border-radius: 3px;
+}
+#works h2{
+    margin : 0 auto;
+    padding: 30px;
+}
+.works{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+   gap: 20px;
+    flex-wrap: wrap;
+}
+.work-pieces{
+    width: 200px;
+    transition: all 0.4s ease-out;
+}
+.work-pieces:hover{
+    width: 220px;
+    
+}
+.work-pieces h3{
+    color: white;
+    font-size: 1.5em;
+}
+.work-pieces p{
+    text-align: center;
+    font-size: 0.6em;
+}
+#family{
+    padding: 100px;
+   text-align: center;
+}
+#family img{
+    width: 100px;
+    margin: 20px;
+    display: inline;
+}
+.family-members{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.family-member{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.family-member .text{
+    width: 350px;
+}
+.family-member p{
+    font-size: 1.4rem;
+
+}
+
+#social-media{
+    background-color: #151414;
+    padding: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.social-platform{
+    background-color: azure;
+    width: 300px;
+    padding: 15px;
+    border-radius: 2px;
+    
+}
+.social-platform h1{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.social-platform p{
+    margin: 10px 0;
+}
+.social-link, #donation div a{
+    background-color: #151414;
+   transition: all 0.5s ease-in-out;
+    padding: 10px;
+    text-transform: uppercase;
+    margin: 10px;
+    display: block;
+}
+.social-link:hover{
+    background-color: #797979;
+    color: aliceblue;
+}
+#donation{
+    background-image: url("bitcoin.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 100px;
+}
+#donation div{
+    width: 300px;
+    padding: 20px;
+    color: #797979;
+    margin-left: 100px;
+background-color: grey;
+background-color: rgba(128, 128, 128, 0.1)
+}
+#donation h1{
+    color: white;
+}
+#donation div a {
+    margin-top: 20px;
+}
+#about-us{
+    width: 400px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #151414;
+}
+#contact{
+    padding: 50px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#contact {
+    color: #797979;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+#contact form{
+    display: flex;
+    flex-direction: column;
+    
+}
+form input{
+    display: block;
+    margin :10px 0;
+    border-radius: 5px;
+    padding: 5px;
+}
+textarea{
+    margin-top: 10px;
+}
+
+.contact-botton{
+    background-color: white;
+    color: #151414;
+    width: 200px;
+    padding: 10px 10px;
+    font-size: x-large;
+    margin-top: 10px;
+}
+.contact-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+}
+.contact-right {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+#links li{
+    list-style-type: none;
+    color: #797979;
+    text-decoration: underline;
+}
